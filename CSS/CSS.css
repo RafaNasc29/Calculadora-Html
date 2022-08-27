@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.marca{
+    font-size: 15px;
+    float: left;
+    align-content: bottom;
+}
+
+.Calcmodel{
+    font-size: 30px;
+    text-align: right;
+}
+
+.fundo{
+    background-image: linear-gradient(45deg,black, rgb(60, 158, 255));
+    height: 100vh;
+    color: black;
+    text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: lightgrey;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.button{
+    background-color: rgb(78, 148, 253);
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover{
+    background-color: blue;
+}
+
+#resultado{
+    background-color: white;
+    width: 205px;
+    height: 50px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}

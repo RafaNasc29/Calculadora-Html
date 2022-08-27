@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/CSS.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="fundo">
+        <h1>Calculadora</h1>
+        <div class="calculadora">
+            <h1 class="marca">Texas Instruments</h1><h1 class="Calcmodel">TI 305</h1>
+            <p id="resultado"></p>
+            <table>
+                <tr>
+                    <td><button class="button" onclick="limpaTudo()">CE</button></td>
+                    <td><button class="button"  onclick="apagaCaractere()">←</button></td>
+                    <td><button class="button" onclick="digito('/')">/</button></td>
+                    <td><button class="button" onclick="digito('*')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="digito('7')">7</button></td>
+                    <td><button class="button" onclick="digito('8')">8</button></td>
+                    <td><button class="button" onclick="digito('9')">9</button></td>
+                    <td><button class="button"  onclick="digito('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="digito('4')">4</button></td>
+                    <td><button class="button" onclick="digito('5')">5</button></td>
+                    <td><button class="button" onclick="digito('6')">6</button></td>
+                    <td><button class="button"  onclick="digito('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="digito('1')">1</button></td>
+                    <td><button class="button" onclick="digito('2')">2</button></td>
+                    <td><button class="button" onclick="digito('3')">3</button></td>
+                    <td rowspan="2"><button class="button" style="height: 106px;"  onclick="calculo()">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="button" style="width: 106px;"  onclick="digito('0')">0</button></td>
+                    <td><button class="button" onclick="digito('.')">.</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>
